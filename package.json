@@ -1,0 +1,24 @@
+{
+  "name": "dubc-relay",
+  "version": "0.0.1",
+  "description": "gundb relay for dubc-ext",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poorly-taught/dubc-relay.git"
+  },
+  "keywords": [
+    "dubc",
+    "gundb",
+    "relay"
+  ],
+  "author": "Miguel Carter",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/poorly-taught/dubc-relay/issues"
+  },
+  "homepage": "https://github.com/poorly-taught/dubc-relay#readme"
+}
