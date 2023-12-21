@@ -2,8 +2,11 @@
   "name": "dubc-relay",
   "version": "0.0.1",
   "description": "gundb relay for dubc-ext",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/poorly-taught/dubc-relay/issues"
   },
-  "homepage": "https://github.com/poorly-taught/dubc-relay#readme"
+  "homepage": "https://github.com/poorly-taught/dubc-relay#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "gun": "^0.2020.1239"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
