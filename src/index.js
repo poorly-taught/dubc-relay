@@ -14,4 +14,7 @@ app.use(express.static(__dirname))
 const server = app.listen(port)
 const gun = Gun({file: 'data', web: server})
 
+global.Gun = Gun; /// make global to `node --inspect` - debug only
+global.gun = gun; /// make global to `node --inspect` - debug only
+
 console.log('Server start on port ' + port + ' with /gun')
